@@ -1,6 +1,6 @@
 # Bajaj Broking – Trading API & Python SDK
 
-## 📌 Overview
+##  Overview
 
 This project is a **simplified trading backend system** built as part of a campus hiring assignment.  
 It simulates the core functionalities of an online stock broking platform, including:
@@ -15,7 +15,7 @@ The system is implemented using **Python and FastAPI** with **in-memory storage*
 
 ---
 
-## 🏗️ High-Level Architecture
+##  High-Level Architecture
 
 The project consists of two main components:
 
@@ -30,7 +30,7 @@ The project consists of two main components:
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Language:** Python
 - **Backend Framework:** FastAPI
@@ -41,7 +41,7 @@ The project consists of two main components:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 Bajaj Assignment/
 │
@@ -63,7 +63,7 @@ Bajaj Assignment/
 
 ## 🔹 Functional APIs
 
-### 1️⃣ Instruments API
+### 1️. Instruments API
 Fetch all tradable instruments.
 
 
@@ -75,7 +75,7 @@ Fetch all tradable instruments.
 
 ---
 
-### 2️⃣ Order Management APIs
+### 2️. Order Management APIs
 
 #### ➤ Place Order
 
@@ -97,13 +97,13 @@ Fetch all tradable instruments.
 
 ---
 
-### 3️⃣ Trades API
+### 3️. Trades API
 Fetch all executed trades.
 
 
 ---
 
-### 4️⃣ Portfolio API
+### 4️. Portfolio API
 Fetch current portfolio holdings.
 
 
@@ -117,7 +117,7 @@ Portfolio is **derived dynamically from executed trades** to avoid data inconsis
 
 ---
 
-## 🔑 Key Design Decisions
+##  Key Design Decisions
 
 - **UUID-based Order IDs** for global uniqueness
 - **Separation of Orders and Trades**
@@ -132,7 +132,7 @@ Portfolio is **derived dynamically from executed trades** to avoid data inconsis
 
 ---
 
-## 🧩 Python SDK (Wrapper)
+##  Python SDK (Wrapper)
 
 A lightweight Python SDK is provided to abstract REST API usage . 
 
